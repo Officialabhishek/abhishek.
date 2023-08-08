@@ -1,0 +1,84 @@
+.landing-page {
+    height: 100vh;
+    width: 100%;
+
+    .wrapper {
+        margin: 20px 280px 10px 280px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .left-1 {
+                font-size: 40px;
+                font-weight: 600;
+
+                span {
+                    color: rgb(2, 101, 2);
+                }
+            }
+
+            .left-3 {}
+
+            .left-4 {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+
+                
+                    .link {
+                        .account1 {
+                            font-size: 40px;
+                            text-decoration: none;
+                            background-color: rgb(231, 231, 231);
+                            padding: 5px;
+                            border-radius: 50%;
+                            color: #0A66C2;
+                        }
+                        .account2 {
+                            font-size: 40px;
+                            text-decoration: none;
+                            background-color: rgb(231, 231, 231);
+                            padding: 5px;
+                            border-radius: 50%;
+                            color: black;
+                        }
+                    }
+                
+            }
+
+            .left-5 {
+                padding: 10px;
+                width: max-content;
+                border-radius: 5px;
+                background-color: aliceblue;
+                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+
+
+                .about-me {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 18px;
+                    font-weight: 600;
+                    // text-transform: uppercase;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .right {
+            img {
+                width: 600px;
+                height: 600px;
+            }
+        }
+    }
+}

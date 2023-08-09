@@ -9,7 +9,7 @@ import imgcalc from "../../assets/imgcalc.jpeg";
 const Project = () => {
     return (
         <div className='project'>
-            <h1>My <span>Projects</span></h1>
+            <h1 className='heading'>My <span className='headspan'>Projects</span></h1>
             <div className='wrapper'>
                 <div className='wrap'>
                     <div className='row'>

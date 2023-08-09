@@ -3,18 +3,6 @@
     width: 100%;
     margin: 30px 0px 50px;
 
-    h1 {
-        text-align: center;
-        margin-bottom: 60px;
-        opacity: 0.8;
-        text-transform: uppercase;
-        margin: 40px;
-
-        span {
-            color: rgb(189, 115, 4);
-        }
-    }
-
     .wrapper {
         display: flex;
         justify-content: center;
@@ -42,7 +30,7 @@
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px rgb(194, 226, 254);
     transition: all 0.4s ease 0s;
 
     &:hover {
@@ -100,15 +88,15 @@
                 width: max-content;
                 border-radius: 5px;
                 background-color: aliceblue;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 2px 5px 0px rgb(209, 234, 248);
                 text-decoration: none;
                 color: black;
                 font-size: 18px;
                 font-weight: 600;
-                // text-transform: uppercase;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                gap: 10px;
 
                 &:hover {
                     background-color: rgb(3, 0, 8);

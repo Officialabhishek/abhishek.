@@ -8,7 +8,7 @@ const Education = () => {
 
     return (
         <div className='education'>
-            <h1>My <span>Education</span></h1>
+            <h1 className='heading'>My <span className='headspan'>Education</span></h1>
             <div className='wrapper'>
                 <div className='college'>
                     <div className='logo'>

@@ -12,7 +12,6 @@ import About from './Page/About/About';
 import Project from './Page/Project/Project';
 import Resume from './Page/Resume/Resume';
 
-
 function App() {
   return (
     <BrowserRouter>

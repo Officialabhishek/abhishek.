@@ -1,17 +1,6 @@
 .skill {
     width: 100%;
     margin: 40px 0px;
-    
-    h1 {
-        text-align: center;
-        opacity: 0.8;
-        margin-bottom: 60px;
-        text-transform: uppercase;
-
-        span {
-            color: rgb(189, 115, 4);
-        }
-    }
      
 
     .wrapper {
@@ -32,7 +21,7 @@
                 .col {
                     padding: 30px;
                     font-size: 50px;
-                    border: 1px solid rgb(214, 214, 214);
+                    border: 0.2px solid rgb(214, 214, 214);
                     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
                     transition: all 0.4s ease 0s;
 

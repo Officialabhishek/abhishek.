@@ -1,11 +1,6 @@
 .aboutme {
     margin: 50px 180px 150px;
 
-    h1{
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
     .wrapper {
         display: flex;
         flex-direction: row;
@@ -28,44 +23,43 @@
         }
 
         .about-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
             flex: 1;
+            opacity: 0.8;
 
-            h2 {
-                font-size: 18px;
+            .one {
+                font-size: 22px;
                 font-weight: 600;
             }
-            h3 {
-                font-size: 18px;
+            .two {
+                font-size: 20px;
                 font-weight: 400;
             }
-            p {
-                font-size: 16px;
+            .three {
+                font-size: 18px;
+                line-height: 1.5;
                 text-align: justify;
                 color: rgb(47, 47, 47);
-
+            }
+            .five, .six {
+                font-size: 16px;
+                font-weight: 500;
+                
                 span {
-                    color: rgb(31, 118, 31);
+                    color: rgb(189, 115, 4);
                     font-weight: 500;
                 }
-            }
 
-            .resume {
-                padding: 10px;
-                width: max-content;
-                border-radius: 5px;
-                background-color: aliceblue;
-                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
-
-
-                .resumelink {
-                    text-decoration: none;
+                .mail {
                     color: black;
-                    font-size: 18px;
-                    font-weight: 600;
-                    // text-transform: uppercase;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: rgb(189, 115, 4);
+                        text-decoration: underline;
+                    }
                 }
             }
         }

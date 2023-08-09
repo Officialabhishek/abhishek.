@@ -1,18 +1,14 @@
 import React from 'react';
 import "./Skill.scss";
 
-
-
-
-
 import { TbBrandCpp, TbBrandVscode } from "react-icons/tb";
 import { FaReact, FaNodeJs, FaHtml5, FaSass, FaGitAlt, FaGithub, FaFigma, FaBootstrap } from "react-icons/fa";
-import { SiMongodb, SiJavascript, SiCss3, SiNetlify, SiPostman } from "react-icons/si";
+import { SiMongodb, SiJavascript, SiCss3, SiPostman } from "react-icons/si";
 
 const Skill = () => {
     return (
         <div className='skill'>
-            <h1>My <span>skillset</span></h1>
+            <h1 className='heading'>My <span className='headspan'>skillset</span></h1>
             {/* <span>Here some of the tools and technologies that I'm using.</span> */}
             <div className='wrapper'>
                 <div className='table'>

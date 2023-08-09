@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='wrapper'>
-        <div className='love'>Designed and Developed With ❤️ by <span>Abhishek Nagar</span>.</div>
+        <div className='love'>Designed and Developed with ❤️ by <span>Abhishek Nagar</span>.</div>
         <div className='footer-title'>Copyright © 2023 <span>abhishek.</span> </div>
         <div className='social-links'>
           <div className='link'><LinkedInIcon /></div>

@@ -3,10 +3,12 @@ import "./LandingPage.scss";
 
 import image from "../../assets/profile.png";
 import { Link } from 'react-router-dom';
+import Zoom from 'react-reveal/Zoom';
 
 const LandingPage = () => {
   return (
     <div className='landing-page'>
+    <Zoom>
       <div className='wrapper'>
         <div className='left'>
           <div className='left-1'>Hi there! <div className='wave'>👋</div></div>
@@ -24,6 +26,7 @@ const LandingPage = () => {
           <img src={image} alt='' />
         </div>
       </div>
+      </Zoom>
     </div>
   )
 }

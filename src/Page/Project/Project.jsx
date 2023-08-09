@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Project.scss";
 import ProjectCard from './ProjectCard';
+import Fade from 'react-reveal/Fade';
 
 import imgbmi from "../../assets/imgbmi.jpeg";
 import imgtodo from "../../assets/imgtodo.jpeg";
@@ -9,7 +10,7 @@ import imgcalc from "../../assets/imgcalc.jpeg";
 const Project = () => {
     return (
         <div className='project'>
-            <h1 className='heading'>My <span className='headspan'>Projects</span></h1>
+            <Fade top><h1 className='heading'>My <span className='headspan'>Projects</span></h1></Fade>
             <div className='wrapper'>
                 <div className='wrap'>
                     <div className='row'>

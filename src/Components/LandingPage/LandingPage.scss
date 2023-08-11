@@ -99,3 +99,131 @@
         transform: rotate(0.0deg)
     }
 }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .landing-page {
+        overflow: hidden;
+        text-align: center;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 50px auto 30px;
+
+            .right {
+
+                img {
+                    text-align: center;
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .landing-page {
+        overflow: hidden;
+        text-align: center;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            margin: 70px auto 30px;
+
+            .right {
+
+                img {
+                    text-align: center;
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .landing-page {
+        overflow: hidden;
+
+        .wrapper {
+            margin: 70px auto 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 0px;
+
+            .left {
+                .left-1 {
+                    font-size: 35px;
+                }
+            }
+
+            .right {
+
+                img {
+                    text-align: center;
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .landing-page {
+
+        .wrapper {
+
+            .left {
+                .left-1 {
+                    font-size: 40px;
+                    width: max-content;
+                }
+            }
+
+            .right {
+
+                img {
+                    text-align: center;
+                    width: 500px;
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1281px) {
+    .landing-page {
+
+        .wrapper {
+
+            .left {
+                .left-1 {
+                    width: max-content;
+                }
+            }
+        }
+    }
+}
+/* Media Query for Laptops and Desktops */
+// @media (min-width: 1025px){
+    
+// }
+  
+/* Media Query for Large screens */
+// @media (min-width: 1281px) {
+//     body {
+//         background-color: white;
+//     }
+// }

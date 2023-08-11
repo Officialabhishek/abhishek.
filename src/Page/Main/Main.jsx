@@ -21,32 +21,32 @@ const Main = () => {
 
           <div className='about-content'>
             <Fade left>
-            <span>
-              Hi everyone, I am Abhishek Nagar from Indore, MP.
-              I am a hard-working engneering graduate specialised in Mechanical Engineering from NIT Bhopal.
-            </span>
+              <span>
+                Hi everyone, I am Abhishek Nagar from Indore, MP.
+                I am a hard-working engneering graduate specialised in Mechanical Engineering from NIT Bhopal.
+              </span>
             </Fade>
             <Fade left><span>My field of Interest's are building new Web Technologies and Products and also in areas related to Software Development.</span></Fade>
             <Fade left><span>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Framework like React.js.</span></Fade>
           </div>
           <div className='about-img'>
             <Fade right>
-            <img src={aboutimage} alt='' />
+              <img src={aboutimage} alt='' />
             </Fade>
           </div>
         </div>
       </div>
       <div className='connect'>
-      <Fade bottom>
-        <div className='find'>Find me on</div>
-        <div className='feelfree'>Feel free to <span>connect</span> with me</div>
-        <div className='left-4'>
+        <Fade bottom>
+          <div className='find'>Find me on</div>
+          <div className='feelfree'>Feel free to <span>connect</span> with me</div>
+          <div className='left-4'>
             <Link className='link' to='https://www.linkedin.com/in/abhishek-nagar-5353971ba/'><LinkedInIcon className='account1' /></Link>
             <Link className='link' to='https://github.com/Officialabhishek'><TwitterIcon className='account2' /></Link>
             <Link className='link' to='https://github.com/Officialabhishek'><GitHubIcon className='account3' /></Link>
             <Link className='link' to='https://github.com/Officialabhishek'><InstagramIcon className='account4' /></Link>
           </div>
-          </Fade>
+        </Fade>
       </div>
 
     </div>

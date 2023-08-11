@@ -3,6 +3,8 @@
     width: 100%;
     position: relative;
     bottom: 0;
+    left: 0;
+    right: 0;
 
     .wrapper {
         height: 70px;
@@ -49,6 +51,31 @@
             }
         }
     }
+}
 
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    .footer {
 
+        .wrapper {
+            height: min-content;
+            padding: 10px 0px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer {
+
+        .wrapper {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+    }
 }

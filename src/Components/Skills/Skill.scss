@@ -1,21 +1,18 @@
 .skill {
     width: 100%;
-    margin: 40px 0px;
+    margin: 40px auto;
      
 
     .wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        .table {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
+        padding: 0px 350px;
 
             .row {
                 display: flex;
-                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
                 gap: 20px;
 
                 .col {
@@ -30,6 +27,56 @@
                     }
                 }
             }
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+    .skill {
+        overflow: hidden;
+
+        .wrapper {
+            padding: 0px 10px;
+
+            .row {
+
+                .col {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .skill {
+        overflow: hidden;
+
+        .wrapper {
+            padding: 0px 100px;
+        }
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    .skill {
+        overflow: hidden;
+
+        .wrapper {
+            padding: 0px 200px;
+        }
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    .skill {
+        overflow: hidden;
+
+        .wrapper {
+            padding: 0px 300px;
         }
     }
 }

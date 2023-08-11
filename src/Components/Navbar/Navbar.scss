@@ -1,8 +1,9 @@
 .navbar {
+    // width: 100%;
     height: 60px;
     background-color: aliceblue;
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 0px 180px;
@@ -20,8 +21,11 @@
     }
     .links {
         display: flex;
-        flex-direction: row;
         gap: 30px;
+
+        .toggle-icon {
+            display: none;
+        }
 
         .left-5 {
             padding: 5px;
@@ -62,5 +66,61 @@
                gap: 5px;
             }
         }
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0px 20px;
+        overflow: hidden;
+
+        .links {
+
+            .link, .left-5 {display: none;}
+            .toggle-icon {
+                display: block;
+            }
+        }
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar {
+        // position: relative;
+        height: fit-content;
+        overflow: hidden;
+        padding: 0px 30px;
+
+        .title {
+            display: block;
+            
+        }
+
+        .links {
+
+            .link, .left-5 {display: none;}
+            .toggle-icon {
+                display: block;
+                float: right;
+            }
+        }
+
+        .links.toggle {
+            display: block;
+            
+            .link, .left-5 {
+                display: flex;
+
+            }
+            
+        }
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .navbar {
+        padding: 0px 100px;
     }
 }

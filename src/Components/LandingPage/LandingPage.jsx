@@ -11,7 +11,7 @@ const LandingPage = () => {
     <Zoom>
       <div className='wrapper'>
         <div className='left'>
-          <div className='left-1'>Hi there! <div className='wave'>👋</div></div>
+          <div className='left-1'>Hi There! <div className='wave'>👋</div></div>
           <div className='left-1'>I'm Abhishek <span>Nagar</span></div>
           {/* <div className='left-3'>I'm into Frontend Development</div> */}
           {/* <div className='left-4'>

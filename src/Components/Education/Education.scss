@@ -37,10 +37,12 @@
                     font-size: 20px;
                     font-weight: 500;
                 }
+
                 h3 {
                     font-size: 18px;
                     font-weight: 400;
                 }
+
                 span {
                     font-size: 18px;
                     font-weight: 400;
@@ -66,7 +68,7 @@
                 width: 85%;
 
                 .logo {
-    
+
                     img {
                         width: 70px;
                         height: 70px;
@@ -80,18 +82,20 @@
                         width: fit-content;
                         font-size: 16px;
                     }
+
                     h3 {
                         font-size: 14px;
                     }
+
                     span {
                         font-size: 14px;
                     }
                 }
             }
         }
-    } 
+    }
 }
-  
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .education {
@@ -107,11 +111,11 @@
                 width: 60%;
             }
         }
-    } 
+    }
 }
-  
+
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
     .education {
         overflow: hidden;
         margin: 20px auto;
@@ -126,20 +130,22 @@
                     h2 {
                         font-size: 18px;
                     }
+
                     h3 {
                         font-size: 16px;
                     }
+
                     span {
                         font-size: 16px;
                     }
                 }
             }
         }
-    } 
+    }
 }
-  
+
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1280px) {
     .education {
 
         .wrapper {

@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 180px;
-    position:sticky;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -19,6 +19,7 @@
         font-size: 22px;
         font-weight: 700;
     }
+
     .links {
         display: flex;
         gap: 30px;
@@ -49,7 +50,7 @@
         }
 
         .link {
-            
+
 
             .llink:hover {
                 color: black;
@@ -57,13 +58,13 @@
             }
 
             .llink {
-               text-decoration: none;
-               opacity: 0.8;
-               color: rgb(40, 40, 40);
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               gap: 5px;
+                text-decoration: none;
+                opacity: 0.8;
+                color: rgb(40, 40, 40);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
             }
         }
     }
@@ -76,14 +77,18 @@
 
         .links {
 
-            .link, .left-5 {display: none;}
+            .link,
+            .left-5 {
+                display: none;
+            }
+
             .toggle-icon {
                 display: block;
             }
         }
     }
 }
-  
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .navbar {
@@ -94,12 +99,16 @@
 
         .title {
             display: block;
-            
+
         }
 
         .links {
 
-            .link, .left-5 {display: none;}
+            .link,
+            .left-5 {
+                display: none;
+            }
+
             .toggle-icon {
                 display: block;
                 float: right;
@@ -108,18 +117,19 @@
 
         .links.toggle {
             display: block;
-            
-            .link, .left-5 {
+
+            .link,
+            .left-5 {
                 display: flex;
 
             }
-            
+
         }
     }
 }
-  
+
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
     .navbar {
         padding: 0px 100px;
     }

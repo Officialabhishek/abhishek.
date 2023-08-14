@@ -12,15 +12,8 @@ import DescriptionIcon from '@mui/icons-material/Description';
 const Navbar = () => {
   const [hideMenu, setHideMenu] = useState(false);
 
-
-  // function handleClick() {
-  //   const nav = document.getElementById("links");
-  //   nav.className === "links" ? nav.className += " toggle" : nav.className = "links";
-  // }
-
-
   return (
-    <div className='navbar' id='navbar'>
+    <div className="navbar" id='navbar'>
       <div className='title'>abhishek.</div>
       <div className='toggle-icon' onClick={() => setHideMenu(!hideMenu)}><HiMenuAlt1 /></div>
       <div className={hideMenu ? 'links toggle' : 'links'} id='links'>

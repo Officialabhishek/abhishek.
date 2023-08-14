@@ -42,9 +42,9 @@ const Main = () => {
           <div className='feelfree'>Feel free to <span>connect</span> with me</div>
           <div className='left-4'>
             <Link className='link' to='https://www.linkedin.com/in/abhishek-nagar-5353971ba/'><LinkedInIcon className='account1' /></Link>
-            <Link className='link' to='https://github.com/Officialabhishek'><TwitterIcon className='account2' /></Link>
+            <Link className='link' to='https://twitter.com/abhishek__0110'><TwitterIcon className='account2' /></Link>
             <Link className='link' to='https://github.com/Officialabhishek'><GitHubIcon className='account3' /></Link>
-            <Link className='link' to='https://github.com/Officialabhishek'><InstagramIcon className='account4' /></Link>
+            <Link className='link' to='https://instagram.com/abhisheknagar0110'><InstagramIcon className='account4' /></Link>
           </div>
         </Fade>
       </div>

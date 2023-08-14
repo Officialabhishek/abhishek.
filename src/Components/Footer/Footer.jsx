@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Footer.scss";
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -15,12 +16,12 @@ const Footer = () => {
         <div className='love'>Designed and Developed with ❤️ by <span>Abhishek Nagar</span>.</div>
         <div className='footer-title'>Copyright © 2023 <span>abhishek.</span> </div>
         <div className='social-links'>
-          <div className='link'><LinkedInIcon /></div>
-          <div className='link'><GitHubIcon /></div>
-          <div className='link'><InstagramIcon /></div>
-          <div className='link'><TwitterIcon /></div>
-          <div className='link'><MailOutlineIcon /></div>
-          <div className='link'><TelegramIcon /></div>
+          <Link className='link' to='https://www.linkedin.com/in/abhishek-nagar-5353971ba/'><LinkedInIcon /></Link>
+          <Link className='link' to='https://github.com/Officialabhishek'><GitHubIcon /></Link>
+          <Link className='link' to='https://instagram.com/abhisheknagar0110'><InstagramIcon /></Link>
+          <Link className='link' to='https://twitter.com/abhishek__0110'><TwitterIcon /></Link>
+          <Link className='link' to='mailto:abhisheknagar0110@gamil.com'><MailOutlineIcon /></Link>
+          <Link className='link' to='https://t.me/abhisheknagar0110'><TelegramIcon /></Link>
         </div>
       </div>
     </div>

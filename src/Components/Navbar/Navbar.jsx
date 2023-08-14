@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Navbar.scss";
 
 import { Link } from 'react-router-dom';
@@ -10,24 +10,27 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 const Navbar = () => {
-  function handleClick() {
-    const nav = document.getElementById("links");
-    nav.className === "links" ? nav.className = nav.className + " toggle" : nav.className = "links";
-  }
+  const [hideMenu, setHideMenu] = useState(false);
+
+
+  // function handleClick() {
+  //   const nav = document.getElementById("links");
+  //   nav.className === "links" ? nav.className += " toggle" : nav.className = "links";
+  // }
 
 
   return (
     <div className='navbar' id='navbar'>
       <div className='title'>abhishek.</div>
-      <div className='links' id='links'>
-          <div className='link'> <Link className='llink' to='/'><HomeIcon /> Home</Link> </div>
-          <div className='link'> <Link className='llink' to='/about'><PersonIcon /> About</Link> </div>
-          <div className='link'> <Link className='llink' to='/projects'><LiveTvIcon /> Projects</Link> </div>
-          <div className='link'> <Link className='llink' to='/resume'><DescriptionIcon /> Resume</Link> </div>
+      <div className='toggle-icon' onClick={() => setHideMenu(!hideMenu)}><HiMenuAlt1 /></div>
+      <div className={hideMenu ? 'links toggle' : 'links'} id='links'>
+          <div className='link'> <Link className='llink' to='/' onClick={() => setHideMenu(false)}><HomeIcon /> Home</Link> </div>
+          <div className='link'> <Link className='llink' to='/about' onClick={() => setHideMenu(false)}><PersonIcon /> About</Link> </div>
+          <div className='link'> <Link className='llink' to='/projects' onClick={() => setHideMenu(false)}><LiveTvIcon /> Projects</Link> </div>
+          <div className='link'> <Link className='llink' to='/resume' onClick={() => setHideMenu(false)}><DescriptionIcon /> Resume</Link> </div>
           <div className='left-5'>
             <Link className='about-me' to='https://github.com/Officialabhishek/abhishek.'><FaRegStar /></Link>
           </div>
-          <div className='toggle-icon' onClick={handleClick}><HiMenuAlt1 /></div>
       </div>
     </div>
   )

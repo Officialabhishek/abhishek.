@@ -1,13 +1,11 @@
 .navbar {
-    // width: 100%;
     height: 60px;
     background-color: aliceblue;
     display: flex;
-    // flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 0px 180px;
-    position: sticky;
+    position: sticky, relative;
     top: 0;
     left: 0;
     right: 0;
@@ -20,20 +18,24 @@
         font-weight: 700;
     }
 
+    .toggle-icon {
+        position: absolute;
+        font-size: 25px;
+        top: 20px;
+        right: 30px;
+        display: none;
+    }
+
     .links {
         display: flex;
         gap: 30px;
-
-        .toggle-icon {
-            display: none;
-        }
 
         .left-5 {
             padding: 5px;
             width: max-content;
             border-radius: 5px;
             background-color: aliceblue;
-            box-shadow: 0px 2px 5px 0px rgb(194, 226, 254);
+            box-shadow: 0px 1px 10px 0px rgb(194, 226, 254);
 
 
             .about-me {
@@ -70,60 +72,57 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .navbar {
         padding: 0px 20px;
         overflow: hidden;
 
-        .links {
-
-            .link,
-            .left-5 {
-                display: none;
-            }
-
-            .toggle-icon {
-                display: block;
-            }
-        }
-    }
-}
-
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    .navbar {
-        // position: relative;
-        height: fit-content;
-        overflow: hidden;
-        padding: 0px 30px;
-
-        .title {
+        .toggle-icon {
             display: block;
-
-        }
-
-        .links {
-
-            .link,
-            .left-5 {
-                display: none;
-            }
-
-            .toggle-icon {
-                display: block;
-                float: right;
-            }
         }
 
         .links.toggle {
-            display: block;
+            padding: 30px 0px;
+            box-shadow: 0px 200px 200px 0px rgba(0, 0, 0, 0.205);
+            transition: all 0.5s ease-in-out;
 
-            .link,
+            .link {
+                display: block;
+
+                .llink {
+                    width: fit-content;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .links {
+            position: absolute;
+            z-index: 1;
+            background-color: aliceblue;
+            top: 60px;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+
             .left-5 {
-                display: flex;
-
+                display: none;
             }
 
+            .link {
+                display: none;
+                text-align: center;
+                margin: 0;
+
+
+                .llink {
+                    width: 100%;
+                }
+            }
+
+            
         }
     }
 }

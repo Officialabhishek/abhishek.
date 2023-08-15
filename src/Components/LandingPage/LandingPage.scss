@@ -135,7 +135,7 @@
             display: flex;
             flex-direction: column;
             gap: 50px;
-            margin: 70px auto 30px;
+            margin: 70px auto 10px;
 
             .right {
 
@@ -153,9 +153,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .landing-page {
         overflow: hidden;
-
         .wrapper {
-            margin: 70px auto 30px;
+            margin: 70px auto 10px;
             display: flex;
             flex-direction: row;
             justify-content: center;

@@ -129,11 +129,11 @@
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 900px) {
     .main {
 
         .intro {
-            margin: 50px auto;
+            margin: 10px auto 50px;
             overflow: hidden;
 
             .about-wrapper {

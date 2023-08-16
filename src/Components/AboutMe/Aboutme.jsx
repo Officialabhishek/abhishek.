@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Aboutme.scss";
 import { Link } from 'react-router-dom';
-import aboutImg from "../../assets/aboutImg.png";
+import aboutImg from "../../assets/hero2.png";
 import Fade from 'react-reveal/Fade';
 
 const Aboutme = () => {

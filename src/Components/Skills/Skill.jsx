@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 import { TbBrandCpp, TbBrandVscode } from "react-icons/tb";
 import { FaReact, FaNodeJs, FaHtml5, FaSass, FaGitAlt, FaGithub, FaFigma, FaBootstrap } from "react-icons/fa";
-import { SiMongodb, SiJavascript, SiCss3, SiPostman } from "react-icons/si";
+import { SiMongodb, SiJavascript, SiCss3, SiPostman, SiPowerbi } from "react-icons/si";
 
 const Skill = () => {
     return (
@@ -30,7 +30,7 @@ const Skill = () => {
                         {/* </div>
                         <div className='row'> */}
                             <div className='col'><TbBrandVscode /> </div>
-                            <div className='col'><FaHtml5 /> </div>
+                            <div className='col'><SiPowerbi /> </div>
                             <div className='col'><SiMongodb /> </div>
                             <div className='col'><FaFigma /> </div>
                             <div className='col'><SiPostman /> </div>

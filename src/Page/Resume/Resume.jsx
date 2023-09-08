@@ -9,13 +9,13 @@ const Resume = () => {
   return (
     <div className='resume' id='resume'>
       <div className='resumebox'>
-        <Link className='resumelink' to='https://drive.google.com/file/d/1VmZElJkvF-aSXbt3OXplJFwyFnQUsO0U/view?usp=sharing'><CloudDownloadIcon />Download</Link>
+        <Link className='resumelink' to='https://drive.google.com/file/d/1cMDpDy168L8h0mpESBu3L2rJyQx1ePa4/view?usp=sharing'><CloudDownloadIcon />Download</Link>
       </div>
       <div className='img'>
         <img src={image} alt='' />
       </div>
       <div className='resumebox'>
-        <Link className='resumelink' to='https://drive.google.com/file/d/1VmZElJkvF-aSXbt3OXplJFwyFnQUsO0U/view?usp=sharing'><CloudDownloadIcon />Download</Link>
+        <Link className='resumelink' to='https://drive.google.com/file/d/1cMDpDy168L8h0mpESBu3L2rJyQx1ePa4/view?usp=sharing'><CloudDownloadIcon />Download</Link>
       </div>    </div>
   )
 }

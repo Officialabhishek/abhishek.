@@ -59,8 +59,9 @@
 
         .right {
             img {
-                width: 600px;
-                height: 600px;
+                object-fit:contain;
+                width: 500px;
+                height: 500px;
             }
         }
     }
@@ -100,10 +101,22 @@
     }
 }
 
+@media (max-width: 400px) {
+    .landing-page {
+        .wrapper {
+            .left {
+                .left-1 {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     .landing-page {
+        height: 100vh;
         overflow: hidden;
         text-align: center;
 
@@ -117,8 +130,8 @@
 
                 img {
                     text-align: center;
-                    width: 400px;
-                    height: 400px;
+                    width: 350px;
+                    height: 350px;
                 }
             }
         }
@@ -128,6 +141,7 @@
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .landing-page {
+        height: 110vh;
         overflow: hidden;
         text-align: center;
 
@@ -141,8 +155,8 @@
 
                 img {
                     text-align: center;
-                    width: 400px;
-                    height: 400px;
+                    width: 350px;
+                    height: 350px;
                 }
             }
         }
@@ -152,13 +166,14 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
     .landing-page {
+        height: 85vh;
         overflow: hidden;
         .wrapper {
             margin: 70px auto 10px;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            gap: 0px;
+            gap: 20px;
 
             .left {
                 .left-1 {
@@ -170,8 +185,8 @@
 
                 img {
                     text-align: center;
-                    width: 400px;
-                    height: 400px;
+                    width: 350px;
+                    height: 350px;
                 }
             }
         }
@@ -182,6 +197,8 @@
     .landing-page {
 
         .wrapper {
+            padding-top: 50px;
+            gap: 20px;
 
             .left {
                 .left-1 {
@@ -194,8 +211,8 @@
 
                 img {
                     text-align: center;
-                    width: 500px;
-                    height: 500px;
+                    width: 400px;
+                    height: 400px;
                 }
             }
         }
@@ -206,6 +223,8 @@
     .landing-page {
 
         .wrapper {
+            padding-top: 50px;
+            gap: 20px;
 
             .left {
                 .left-1 {

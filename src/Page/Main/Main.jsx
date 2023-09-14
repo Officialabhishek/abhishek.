@@ -11,6 +11,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Fade from 'react-reveal/Fade';
 
+
 const Main = () => {
   return (
     <div className='main'>

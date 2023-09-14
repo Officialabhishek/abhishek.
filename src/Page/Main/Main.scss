@@ -107,7 +107,7 @@
     .main {
 
         .intro {
-            margin: 50px auto;
+            margin:10px auto;
             overflow: hidden;
 
             .about-wrapper {
@@ -128,12 +128,20 @@
     }
 }
 
+@media (min-width: 750px) and (max-width: 1450px) {
+    .main {
+        .intro {
+            margin-top: 0;
+        }
+    }
+}
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 900px) {
     .main {
 
         .intro {
-            margin: 10px auto 50px;
+            margin: 10px auto 0px;
             overflow: hidden;
 
             .about-wrapper {

@@ -1,9 +1,8 @@
 .landing-page {
-    height: 100vh;
     width: 100%;
 
     .wrapper {
-        margin: 20px 280px 10px 280px;
+        margin: 20px 280px 30px 280px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -116,7 +115,6 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     .landing-page {
-        height: 100vh;
         overflow: hidden;
         text-align: center;
 
@@ -141,7 +139,6 @@
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .landing-page {
-        height: 110vh;
         overflow: hidden;
         text-align: center;
 
@@ -149,7 +146,7 @@
             display: flex;
             flex-direction: column;
             gap: 50px;
-            margin: 70px auto 10px;
+            margin: 70px auto 30px;
 
             .right {
 
@@ -166,10 +163,9 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
     .landing-page {
-        height: 85vh;
         overflow: hidden;
         .wrapper {
-            margin: 70px auto 10px;
+            margin: 70px auto 30px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -221,7 +217,7 @@
 
 @media (min-width: 1281px) {
     .landing-page {
-
+        height: 95vh;
         .wrapper {
             padding-top: 50px;
             gap: 20px;

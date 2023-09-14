@@ -1,4 +1,5 @@
 .main {
+    min-height: 100vh;
 
     .intro {
         margin: 50px 180px;
@@ -132,6 +133,10 @@
     .main {
         .intro {
             margin-top: 0;
+            margin-bottom: 100px;
+        }
+        .connect {
+            margin-bottom: 100px;
         }
     }
 }

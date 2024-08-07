@@ -17,7 +17,7 @@ const Aboutme = () => {
                     <div className='two'>Tech Enthusiast</div>
                     <div className='three'>
                         I am an explorer and a tech enthusiast who loves to
-                        learn and collaborate. Currently, I'm doing my undergraduate Bachelor of Technology
+                        learn and collaborate. I have completed my Bachelor of Technology
                         degree in Mechanical Engineering from <span>National Institute of Technology Bhopal</span> (NIT-B) 2020-2024.
                         I am very passionate about improving my coding skills & developing creative websites.
                     </div>

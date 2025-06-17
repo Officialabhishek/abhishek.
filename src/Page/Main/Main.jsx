@@ -2,8 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Main.scss";
 
+import "../About/About.scss";
+import Aboutme from '../../Components/AboutMe/Aboutme';
+import Education from '../../Components/Education/Education';
+import Skills from '../../Components/Skills/Skill';
+
 import LandingPage from '../../Components/LandingPage/LandingPage';
-import aboutimage from "../../assets/about.png";
+// import aboutimage from "../../assets/about.png";
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -17,26 +22,30 @@ const Main = () => {
     <div className='main'>
       <LandingPage />
       <div className='intro'>
-        <Fade><h1 className='heading'>Let me introduce <span className='headspan'>myself</span></h1></Fade>
+        {/* <Fade><h1 className='heading'>Let me introduce <span className='headspan'>myself</span></h1></Fade> */}
         <div className='about-wrapper'>
 
           <div className='about-content'>
-            <Fade left>
+            {/* <Fade left>
               <span>
-                Hi everyone, I am Abhishek Nagar from Indore, MP.
-                I am a hard-working engneering graduate specialised in Mechanical Engineering from NIT Bhopal.
+                Hi everyone, I am Abhishek Nagar from Indore, Madhya Pradesh.
               </span>
-            </Fade>
-            <Fade left><span>My field of Interest's are building new Web Technologies and Products and also in areas related to Software Development.</span></Fade>
-            <Fade left><span>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Framework like React.js.</span></Fade>
+            </Fade> */}
+            {/* <Fade left><span>My field of Interest's are building new Web Technologies and Products and also in areas related to Software Development.</span></Fade> */}
+            {/* <Fade left><span>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Framework like React.js.</span></Fade> */}
           </div>
-          <div className='about-img'>
+          {/* <div className='about-img'>
             <Fade right>
               <img src={aboutimage} alt='' />
             </Fade>
-          </div>
+          </div> */}
         </div>
       </div>
+      <div className='about'>
+        <Aboutme />
+        <Education />
+        <Skills />
+    </div>
       <div className='connect'>
         <Fade bottom>
           <div className='find'>Find me on</div>

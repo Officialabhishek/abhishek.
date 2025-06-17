@@ -8,7 +8,7 @@ import {
 import Main from "./Page/Main/Main";
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
-import About from './Page/About/About';
+// import About from './Page/About/About';
 import Project from './Page/Project/Project';
 import Resume from './Page/Resume/Resume';
 
@@ -19,7 +19,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/projects" element={<Project />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<Main />} />

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./LandingPage.scss";
 
-import image from "../../assets/profileUpdated.png";
+import image from "../../assets/Profile2025.png";
 import { Link } from 'react-router-dom';
 import Zoom from 'react-reveal/Zoom';
 
